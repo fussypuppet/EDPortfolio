@@ -4,7 +4,9 @@ export default function Resume() {
     return (
         <>
             <NavBar />
-            <div>My Resume</div>
+            <main>
+                <h2>My Resume</h2>
+            </main>
         </>
     )
 }

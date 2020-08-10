@@ -6,6 +6,7 @@ export default function Navbar() {
     return (
         <>
             <Head>
+                <link href={"https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap"} rel="stylesheet" />
                 <title>Davidson Portfolio</title>
             </Head>
             <nav className={styles.nav}>
