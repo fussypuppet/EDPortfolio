@@ -4,11 +4,11 @@ import NavBar from '../components/navbar'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <NavBar />
-      <main className={styles.main}>
+      <main>
           <h2>Home</h2>
-          <p>So, um, this will eventually be my portfolio, but for now it's very much a work in progress</p>
+          <p className={styles.card}>Hi!  I'm Eliott.  I'm a software engineer in training with a background ranging from mail delivery to biology research to social work. Whether it is answering unknowns about cellular function, delivering the most mail in the shortest time, translating confusing documents into approachable language, or designing code, I'm driven by a desire to distill complicated problems down to their core issues and deliver value, clarity, & efficiency. </p>
       </main>
 
       <footer className={styles.footer}>

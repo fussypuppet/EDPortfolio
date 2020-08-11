@@ -134,3 +134,8 @@
   margin-top: 25px;
   height: 180px;
 }
+
+.centered {
+  max-width: 612px;
+  margin: 18px auto;
+}
