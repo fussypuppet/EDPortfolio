@@ -7,7 +7,7 @@ export default function Resume() {
         <>
             <NavBar />
             <main>
-                <Document file="../documents/ed_resume_8_2020.pdf">
+                <Document file="../documents/ed_resume_8_25_2020.pdf">
                     <Page className={styles.centered} pageNumber={1} />
                 </Document>
             </main>

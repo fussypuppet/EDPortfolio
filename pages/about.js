@@ -10,6 +10,7 @@ export default function About() {
                 <div className={styles.card}>
                     <img className={styles.thumbnail} src='../images/me.jpeg' alt="photo of Eliott" />
                     <p>
+                        <a href="https://www.linkedin/in/eliott-davidson" target='_blank'>https://www.linkedin/in/eliott-davidson</a>
                         <a href="https://www.github.com/fussypuppet" target='_blank'>https://www.github.com/fussypuppet</a>
                     </p>
                     <p>eliott.davidson@gmail.com</p>
@@ -18,7 +19,6 @@ export default function About() {
                         <li>Napping</li>
                         <li>Chilling with dogs</li>
                         <li>Judging neighbors</li>
-                        <li>React someday</li>
                     </ul>
                 </div>    
             </main>
