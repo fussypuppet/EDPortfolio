@@ -11,6 +11,8 @@ export default function About() {
                     <img className={styles.thumbnail} src='../images/me.jpeg' alt="photo of Eliott" />
                     <p>
                         <a href="https://www.linkedin/in/eliott-davidson" target='_blank'>https://www.linkedin/in/eliott-davidson</a>
+                    </p>
+                    <p>
                         <a href="https://www.github.com/fussypuppet" target='_blank'>https://www.github.com/fussypuppet</a>
                     </p>
                     <p>eliott.davidson@gmail.com</p>

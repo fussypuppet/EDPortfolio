@@ -8,11 +8,11 @@ export default function Home() {
       <NavBar />
       <main>
           <h2>Home</h2>
-          <p className={styles.card}>Hi!  I'm Eliott.  I'm a software engineer in training with a background ranging from social work to biology research. Whether it is answering unknowns about cellular function, translating confusing documents into approachable language, or designing code, I'm driven by a desire to distill complicated problems down to their core issues and deliver value, clarity, & efficiency. </p>
+          <p className={styles.card}>Hi!  I'm Eliott.  I'm a software engineer with a background ranging from social work to biology research. Whether it is answering unknowns about cellular function, translating confusing documents into approachable language, or designing code, I'm driven by a desire to distill complicated problems down to their core issues and deliver value, clarity, & efficiency. </p>
       </main>
 
       <footer className={styles.footer}>
-        <h3>Ooh neat, it'd be fun to do something with a footer</h3>
+        <h3></h3>
       </footer>
     </div>
   )
