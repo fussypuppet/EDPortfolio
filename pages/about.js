@@ -70,7 +70,7 @@ export default function About() {
                     <p className={styles.list_label}>Find me elsewhere!</p>
                     <div className={styles.right}>
                         <a href="https://www.linkedin.com/in/eliott-davidson" target='_blank'>
-                            <img className={styles.icon} src="./images/LI-in-Bug.png" alt="LinkedIn icon" />
+                            <img className={styles.icon} src="./images/LI-In-Bug.png" alt="LinkedIn icon" />
                             LinkedIn
                         </a> 
                         <a href="https://www.github.com/fussypuppet" target='_blank'>
