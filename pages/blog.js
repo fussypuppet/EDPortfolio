@@ -3,6 +3,7 @@ import Post from '../components/post'
 import styles from '../styles/Home.module.css'
 import { useState } from 'react'
 
+
 export default function Blog() {
     const [postsContent, setPostsContent] = useState([
         {title: "I did a blog!", text: "I feel so hip now"},
