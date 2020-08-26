@@ -7,7 +7,7 @@ export default function Projects() {
         {
             name: "Coop Accounts",
             description: "An app to keep track of coop shareholder HOA accounts",
-            technologies: ["Node", "PostgreSQL", "Sequelize", "Express", "EJS", "CSS", "Bootstrap 4.5"],
+            technologies: ["Node", "PostgreSQL", "Sequelize", "Express.js", "EJS", "CSS", "Bootstrap 4.5"],
             screenshotUrl: "../images/coopAccSS.png",
             deployUrl: "https://coop-accounts.herokuapp.com",
             gitHubUrl: "https://github.com/fussypuppet/p2_coop_accounts",
@@ -21,6 +21,17 @@ export default function Projects() {
             gitHubUrl: "https://github.com/fussypuppet/project_1"
         }
     ];
+    //  name: "Reading Buddy",
+    //  description: "Find your friends and see what books interest them as well as reviews they have written!"
+    //  technologies: ["React", "MongoDB", "Express.js", "Node.js", "JavaScript"],
+    //  screenshotUrl: 
+    //  deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
+    //  gitHubUrl:
+    //  name: "Tide Pool Finder"
+    //  description: 
+    //  screenshotUrl:
+    //  deployUrl:
+    //  gitHubUrl:  "https://github.com/fussypuppet/seir_526_p4"
     return (
         <>
             <NavBar />
