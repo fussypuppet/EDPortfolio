@@ -80,14 +80,14 @@
   max-width: 800px;
   margin-top: 3rem;
 }
-
+/*
 .card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
-
+*/
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -120,6 +120,13 @@
     text-align: right;
 }
 
+.right {
+  display: inline-block;
+  width: calc(50% - 20px);
+  text-align: left;
+  margin-top: 16px;
+}
+
 .techs {
   width: 100%;
 }
@@ -138,4 +145,15 @@
 .centered {
   max-width: 612px;
   margin: 18px auto;
+}
+
+.icon {
+  max-width: 16;
+  max-height: 16px;
+  border: 0;
+  margin-right: 4px;
+}
+
+.skills {
+  list-style-type: none;
 }

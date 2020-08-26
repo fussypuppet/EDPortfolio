@@ -1,12 +1,13 @@
 import NavBar from '../components/navbar'
 import Project from '../components/project'
+import styles from '../styles/Home.module.css'
 
 export default function Projects() {
     const projectsData = [
         {
             name: "Coop Accounts",
             description: "An app to keep track of coop shareholder HOA accounts",
-            technologies: ["Node", "Postgresql", "Sequelize", "Express", "EJS", "CSS", "Bootstrap 4.5"],
+            technologies: ["Node", "PostgreSQL", "Sequelize", "Express", "EJS", "CSS", "Bootstrap 4.5"],
             screenshotUrl: "../images/coopAccSS.png",
             deployUrl: "https://coop-accounts.herokuapp.com",
             gitHubUrl: "https://github.com/fussypuppet/p2_coop_accounts",
@@ -29,6 +30,9 @@ export default function Projects() {
                     <Project projectData={project} />
                 ))}
             </main>
+            <footer className={styles.footer}>
+                <p>©2020 Eliott Davidson</p>
+            </footer>
         </>
     )
 }

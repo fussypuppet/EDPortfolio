@@ -7,10 +7,13 @@ export default function Resume() {
         <>
             <NavBar />
             <main>
-                <Document file="../documents/ed_resume_8_25_2020.pdf">
+                <Document file="../documents/ed_resume_8_25_2020_v2.pdf">
                     <Page className={styles.centered} pageNumber={1} />
                 </Document>
             </main>
+            <footer className={styles.footer}>
+                <p>©2020 Eliott Davidson</p>
+            </footer>
         </>
     )
 }

@@ -7,12 +7,14 @@ export default function Home() {
     <div>
       <NavBar />
       <main>
-          <h2>Home</h2>
-          <p className={styles.card}>Hi!  I'm Eliott.  I'm a software engineer with a background ranging from social work to biology research. Whether it is answering unknowns about cellular function, translating confusing documents into approachable language, or designing code, I'm driven by a desire to distill complicated problems down to their core issues and deliver value, clarity, & efficiency. </p>
+          <h2>Eliott Davidson</h2>
+          <div className={styles.card}>
+            <img className={styles.thumbnail} src='../images/me.jpeg' alt="photo of Eliott" />
+            <p>Hi!  I'm Eliott.  I'm a software engineer with a background ranging from social work to biology research. Whether it is answering unknowns about cellular function, translating confusing documents into approachable language, or designing code, I'm driven by a desire to distill complicated problems down to their core issues and deliver value, clarity, & efficiency.</p>
+          </div>
       </main>
-
       <footer className={styles.footer}>
-        <h3></h3>
+        <p>©2020 Eliott Davidson</p>
       </footer>
     </div>
   )

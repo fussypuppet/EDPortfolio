@@ -17,6 +17,9 @@ export default function Blog() {
                     <Post postInfo={post} />
                 ))}
             </main>
+            <footer className={styles.footer}>
+                <p>©2020 Eliott Davidson</p>
+            </footer>
         </>
     )
 }
