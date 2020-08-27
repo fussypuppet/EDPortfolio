@@ -18,7 +18,12 @@ export default function Project(props) {
                     ))}
                 </ul>
             </div>
-            <p>On Github: <a href={props.projectData.gitHubUrl} target='_blank'>{props.projectData.gitHubUrl}</a></p>
+            <div className={styles.project_section}>
+                <p>On Github:</p>
+                {props.projectData.gitHubUrl.map(url => (
+                    <p><a href={url} target='_blank'>{url}</a></p>
+                ))}
+            </div>
             <style jsx>
                 {`
                     .techs {

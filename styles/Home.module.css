@@ -131,6 +131,10 @@
   width: 100%;
 }
 
+.project_section {
+  width: 100%;
+}
+
 .app_screenshot{
   display: block;
   height: 240px;

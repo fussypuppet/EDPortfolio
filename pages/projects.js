@@ -10,7 +10,7 @@ export default function Projects() {
             technologies: ["Node", "PostgreSQL", "Sequelize", "Express.js", "EJS", "CSS", "Bootstrap 4.5"],
             screenshotUrl: "../images/coopAccSS.png",
             deployUrl: "https://coop-accounts.herokuapp.com",
-            gitHubUrl: "https://github.com/fussypuppet/p2_coop_accounts",
+            gitHubUrl: ["https://github.com/fussypuppet/p2_coop_accounts"]
         },
         {
             name: "Oh No!",
@@ -18,15 +18,17 @@ export default function Projects() {
             technologies: ["Javascript", "HTML", "CSS Grid"],
             screenshotUrl: "../images/ohNoSS.png",
             deployUrl: "https://fussypuppet.github.io/project_1",
-            gitHubUrl: "https://github.com/fussypuppet/project_1"
+            gitHubUrl: ["https://github.com/fussypuppet/project_1"]
+        },
+        {
+            name: "Reading Buddy",
+            description: "An app made in collaboration with Emily Krauss, Charles Perry, and Scott McLeod.  Find your friends and see what books interest them as well as reviews they have written!",
+            technologies: ["React", "MongoDB", "Express.js", "Node.js", "JavaScript"],
+            screenshotUrl: "../images/readingBuddySS.png",
+            deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
+            gitHubUrl: ["https://github.com/fussypuppet/Frontend-Reading-Buddy", "https://github.com/fussypuppet/Backend-Reading-Buddy"]
         }
     ];
-    //  name: "Reading Buddy",
-    //  description: "Find your friends and see what books interest them as well as reviews they have written!"
-    //  technologies: ["React", "MongoDB", "Express.js", "Node.js", "JavaScript"],
-    //  screenshotUrl: 
-    //  deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
-    //  gitHubUrl:
     //  name: "Tide Pool Finder"
     //  description: 
     //  screenshotUrl:
