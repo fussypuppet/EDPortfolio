@@ -19,7 +19,9 @@ export default function Projects() {
             ],
             screenshotUrl: "../images/coopAccSS.png",
             deployUrl: "https://coop-accounts.herokuapp.com",
-            gitHubUrl: ["https://github.com/fussypuppet/p2_coop_accounts"]
+            gitHub: [
+                {name: "GitHub repository", url: "https://github.com/fussypuppet/p2_coop_accounts"}
+            ]
         },
         {
             name: "Oh No!",
@@ -31,7 +33,9 @@ export default function Projects() {
             ],
             screenshotUrl: "../images/ohNoSS.png",
             deployUrl: "https://fussypuppet.github.io/project_1",
-            gitHubUrl: ["https://github.com/fussypuppet/project_1"]
+            gitHub: [
+                {name: "GitHub repository", url: "https://github.com/fussypuppet/project_1"}
+            ]
         },
         {
             name: "Reading Buddy",
@@ -45,7 +49,10 @@ export default function Projects() {
             ],
             screenshotUrl: "../images/readingBuddySS.png",
             deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
-            gitHubUrl: ["https://github.com/fussypuppet/Frontend-Reading-Buddy", "https://github.com/fussypuppet/Backend-Reading-Buddy"]
+            gitHub: [
+                {name: "Front end repository", url: "https://github.com/fussypuppet/Frontend-Reading-Buddy"},
+                {name: "Back end repository", url: "https://github.com/fussypuppet/Backend-Reading-Buddy"}
+            ]
         }
     ];
     //  name: "Tide Pool Finder"

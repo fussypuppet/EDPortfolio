@@ -161,3 +161,16 @@
 .skills {
   list-style-type: none;
 }
+
+.link_button{
+  background-color: #333333;
+  border: 1px solid black;
+  color: white;  
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.link_button:hover{
+  color: white;
+  box-shadow: 3px 2px 8px blue;
+}
