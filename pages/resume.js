@@ -8,6 +8,10 @@ export default function Resume() {
         <>
             <NavBar />
             <main>
+                <h2>
+                    Resume
+                </h2>
+                <a className={styles.link_button} href="../documents/ed_resume_08-31-2020.pdf" target="_blank">Download PDF</a>
                 <Document file="../documents/ed_resume_08-31-2020.pdf">
                     <Page className={styles.centered} pageNumber={1} />
                 </Document>
