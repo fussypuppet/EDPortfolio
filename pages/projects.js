@@ -1,5 +1,6 @@
 import NavBar from '../components/navbar'
 import Project from '../components/project'
+import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
 
 export default function Projects() {
@@ -61,9 +62,7 @@ export default function Projects() {
                     <Project projectData={project} />
                 ))}
             </main>
-            <footer className={styles.footer}>
-                <p>©2020 Eliott Davidson</p>
-            </footer>
+            <Footer />
         </>
     )
 }

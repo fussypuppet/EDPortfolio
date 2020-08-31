@@ -1,4 +1,5 @@
 import NavBar from '../components/navbar'
+import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
 
 export default function About() {
@@ -82,9 +83,7 @@ export default function About() {
                         <a className={styles.right} href="mailto:eliott.davidson@gmail.com" target='_blank'>eliott.davidson@gmail.com</a>
                 </div>    
             </main>
-            <footer className={styles.footer}>
-                <p>©2020 Eliott Davidson</p>
-            </footer>
+            <Footer />
         </>
     )
 }

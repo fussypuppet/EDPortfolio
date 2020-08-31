@@ -1,5 +1,6 @@
 import NavBar from '../components/navbar'
 import Post from '../components/post'
+import Footer from '../components/footer'
 import styles from '../styles/Home.module.css'
 import { useState } from 'react'
 
@@ -19,9 +20,7 @@ export default function Blog() {
                     <Post postInfo={post} />
                 ))}
             </main>
-            <footer className={styles.footer}>
-                <p>©2020 Eliott Davidson</p>
-            </footer>
+            <Footer />
         </>
     )
 }
