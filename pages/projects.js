@@ -7,7 +7,15 @@ export default function Projects() {
         {
             name: "Coop Accounts",
             description: "An app to keep track of coop shareholder HOA accounts",
-            technologies: ["Node", "PostgreSQL", "Sequelize", "Express.js", "EJS", "CSS", "Bootstrap 4.5"],
+            technologies: [
+                {name: "Node", icon: "../images/node_icon.png"}, 
+                {name: "PostgreSQL", icon: "../images/elephant.png"},
+                {name: "Sequelize", icon: "../images/sequelize_logo.png"},
+                {name: "Express.js", icon: "../images/express_logo.png"},
+                {name: "EJS", icon: "../images/ejs_icon.ico"},
+                {name: "CSS", icon: "../images/CSS3_logo_and_wordmark.png"},
+                {name: "Bootstrap 4.5", icon: "../images/bootstrap_icon.png"}
+            ],
             screenshotUrl: "../images/coopAccSS.png",
             deployUrl: "https://coop-accounts.herokuapp.com",
             gitHubUrl: ["https://github.com/fussypuppet/p2_coop_accounts"]
@@ -15,7 +23,11 @@ export default function Projects() {
         {
             name: "Oh No!",
             description: "A game inspired by Rogue",
-            technologies: ["Javascript", "HTML", "CSS Grid"],
+            technologies: [
+                {name: "JavasScript", icon: "../images/js_icon.png"}, 
+                {name: "HTML", icon: "../images/240px-HTML5_logo_and_wordmark.png"},
+                {name: "CSS Grid", icon: "../images/CSS3_logo_and_wordmark.png"}
+            ],
             screenshotUrl: "../images/ohNoSS.png",
             deployUrl: "https://fussypuppet.github.io/project_1",
             gitHubUrl: ["https://github.com/fussypuppet/project_1"]
@@ -23,7 +35,13 @@ export default function Projects() {
         {
             name: "Reading Buddy",
             description: "An app made in collaboration with Emily Krauss, Charles Perry, and Scott McLeod.  Find your friends and see what books interest them as well as reviews they have written!",
-            technologies: ["React", "MongoDB", "Express.js", "Node.js", "JavaScript"],
+            technologies: [
+                {name: "React", icon: "../images/react_icon.png"},
+                {name: "MongoDB", icon: "../images/mongo_icon.jpeg"},
+                {name: "Express.js", icon: "../images/express_logo.png"},
+                {name: "Node.js", icon: "../images/node_icon.png"},
+                {name: "JavaScript", icon: "../images/js_icon.png"}
+            ],
             screenshotUrl: "../images/readingBuddySS.png",
             deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
             gitHubUrl: ["https://github.com/fussypuppet/Frontend-Reading-Buddy", "https://github.com/fussypuppet/Backend-Reading-Buddy"]

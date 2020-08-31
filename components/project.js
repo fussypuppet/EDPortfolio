@@ -14,7 +14,7 @@ export default function Project(props) {
                 <p className={styles.list_label}>Technologies Used:</p>
                 <ul>
                     {props.projectData.technologies.map(tech => (
-                        <li>{tech}</li>
+                        <li><img className={styles.icon} src={tech.icon} alt={tech.name + " icon"}></img> {tech.name}</li>
                     ))}
                 </ul>
             </div>
