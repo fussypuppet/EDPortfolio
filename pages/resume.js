@@ -12,7 +12,7 @@ export default function Resume() {
                     Resume
                 </h2>
                 <a className={styles.link_button} href="../documents/ed_resume_09-01-2020.pdf" target="_blank">Download PDF</a>
-                <Document file="../documents/ed_resume_08-31-2020.pdf">
+                <Document file="../documents/ed_resume_09-01-2020.pdf">
                     <Page className={styles.centered} pageNumber={1} />
                 </Document>
             </main>
