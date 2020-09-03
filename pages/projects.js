@@ -48,7 +48,7 @@ export default function Projects() {
                 {name: "JavaScript", icon: "../images/js_icon.png"}
             ],
             screenshotUrl: "../images/readingBuddySS.png",
-            deployUrl: "https://compassionate-swirles-569ce5.netlify.app/",
+            deployUrl: "https://wonderful-kepler-453ce0.netlify.app/",
             gitHub: [
                 {name: "Front end repository", url: "https://github.com/fussypuppet/Frontend-Reading-Buddy"},
                 {name: "Back end repository", url: "https://github.com/fussypuppet/Backend-Reading-Buddy"}
