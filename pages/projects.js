@@ -53,13 +53,22 @@ export default function Projects() {
                 {name: "Front end repository", url: "https://github.com/fussypuppet/Frontend-Reading-Buddy"},
                 {name: "Back end repository", url: "https://github.com/fussypuppet/Backend-Reading-Buddy"}
             ]
+        },
+        {
+            name: "Tide Pool Finder",
+            description: "A mobile app that helps you find local tide pool sites, take photos of your adventures, and share them with others",
+            technologies: [
+                {name: "Flutter", icon: "../images/logo_flutter_1080px_clr.png"},
+                {name: "Dart", icon: "../images/logo_dart_1080px_clr.png"},
+            ],
+            screenshotUrl: "../images/TPF_1012_ios_homepage.jpg",
+            deployUrl: "https://play.google.com/store/apps/details?id=dev.davidson.p4",
+            gitHub: [
+                {name: "GitHub repository", url: "https://github.com/fussypuppet/seir_526_p4"}
+            ]
         }
     ];
-    //  name: "Tide Pool Finder"
-    //  description: 
-    //  screenshotUrl:
-    //  deployUrl:
-    //  gitHubUrl:  "https://github.com/fussypuppet/seir_526_p4"
+
     return (
         <>
             <NavBar />
