@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer className={styles.footer}>
             <p>
-                ©2020 Eliott Davidson
+                ©2021 Eliott Davidson
                 <a href="https://www.linkedin.com/in/eliott-davidson" target='_blank'>
                     <img className={styles.icon} src="./images/LI-In-Bug.png" alt="LinkedIn icon" />
                 </a> 
